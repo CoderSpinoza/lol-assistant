@@ -1,0 +1,36 @@
+{
+  "intents": [
+    {
+      "intent": "StartGame"
+    },
+    {
+      "intent": "PostSkillCoolTime",
+      "slots": [
+        {
+          "name": "Champion",
+          "type": "CHAMPIONS"
+        },
+        {
+          "name": "Skill",
+          "type": "SKILLS"
+        }
+      ]
+    },
+    {
+      "intent": "GetSkillCoolTime",
+      "slots": [
+        {
+          "name": "Champion",
+          "type": "CHAMPIONS"
+        },
+        {
+          "name": "Skill",
+          "type": "SKILLS"
+        }
+      ]
+    },
+    {
+      "intent": "EndGame"
+    }
+  ]
+}
